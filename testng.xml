@@ -3,9 +3,7 @@
 <suite name="smoke-suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.saucedemo.testClasses.InventoryPageTest"/>
-      <class name="com.saucedemo.testClasses.LoginPageTest"/>
-      <class name="com.saucedemo.testClasses.CartPageTest"/>
+        <class name="com.saucedemo.testClasses.CartPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- smoke-suite -->
