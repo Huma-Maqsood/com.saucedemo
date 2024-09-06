@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T18:24:25 PKT" name="smoke-suite" finished-at="2024-09-05T18:25:00 PKT" duration-ms="34272">
+    <groups>
+    </groups>
+    <test started-at="2024-09-05T18:24:25 PKT" name="Test" finished-at="2024-09-05T18:25:00 PKT" duration-ms="34272">
+      <class name="com.saucedemo.testClasses.LoginPageTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.saucedemo.testClasses.LoginPageTest@175c2241]" started-at="2024-09-05T18:24:44 PKT" name="beforeTest" finished-at="2024-09-05T18:24:50 PKT" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.saucedemo.testClasses.LoginPageTest@175c2241]" started-at="2024-09-05T18:24:51 PKT" name="loginPageTitleTest" finished-at="2024-09-05T18:24:51 PKT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="LogoTest()[pri:2, instance:com.saucedemo.testClasses.LoginPageTest@175c2241]" started-at="2024-09-05T18:24:51 PKT" name="LogoTest" finished-at="2024-09-05T18:24:51 PKT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoTest -->
+        <test-method signature="validLoginTest()[pri:3, instance:com.saucedemo.testClasses.LoginPageTest@175c2241]" started-at="2024-09-05T18:24:51 PKT" name="validLoginTest" finished-at="2024-09-05T18:24:52 PKT" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testClasses.LoginPageTest@175c2241]" started-at="2024-09-05T18:25:00 PKT" name="tearDown" finished-at="2024-09-05T18:25:00 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testClasses.LoginPageTest -->
+      <class name="com.saucedemo.testClasses.InventoryPageTest">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:34 PKT" name="pageSetup" finished-at="2024-09-05T18:24:44 PKT" duration-ms="9399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="VerifyProduct1PriceTest()[pri:1, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:50 PKT" name="VerifyProduct1PriceTest" finished-at="2024-09-05T18:24:50 PKT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProduct1PriceTest -->
+        <test-method signature="addProduct1toCartTest()[pri:2, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:50 PKT" name="addProduct1toCartTest" finished-at="2024-09-05T18:24:50 PKT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct1toCartTest -->
+        <test-method signature="addProduct2toCartTest()[pri:3, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:50 PKT" name="addProduct2toCartTest" finished-at="2024-09-05T18:24:50 PKT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct2toCartTest -->
+        <test-method signature="isProduct1inCartTest()[pri:4, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:50 PKT" name="isProduct1inCartTest" finished-at="2024-09-05T18:24:50 PKT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProduct1inCartTest -->
+        <test-method signature="isProduct2inCartTest()[pri:5, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:50 PKT" name="isProduct2inCartTest" finished-at="2024-09-05T18:24:50 PKT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProduct2inCartTest -->
+        <test-method signature="goToCartTest()[pri:6, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:50 PKT" name="goToCartTest" finished-at="2024-09-05T18:24:51 PKT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCartTest -->
+        <test-method signature="verifyItemsAddedTest()[pri:7, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:24:51 PKT" name="verifyItemsAddedTest" finished-at="2024-09-05T18:24:51 PKT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsAddedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testClasses.InventoryPageTest@36fc695d]" started-at="2024-09-05T18:25:00 PKT" name="tearDown" finished-at="2024-09-05T18:25:00 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testClasses.InventoryPageTest -->
+      <class name="com.saucedemo.testClasses.CartPageTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.saucedemo.testClasses.CartPageTest@5bf0d49]" started-at="2024-09-05T18:24:25 PKT" name="beforeTest" finished-at="2024-09-05T18:24:34 PKT" duration-ms="8786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyCartItemsTest()[pri:1, instance:com.saucedemo.testClasses.CartPageTest@5bf0d49]" started-at="2024-09-05T18:24:52 PKT" name="verifyCartItemsTest" finished-at="2024-09-05T18:24:52 PKT" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartItemsTest -->
+        <test-method signature="checkoutButtonTest()[pri:2, instance:com.saucedemo.testClasses.CartPageTest@5bf0d49]" started-at="2024-09-05T18:24:52 PKT" name="checkoutButtonTest" finished-at="2024-09-05T18:24:55 PKT" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutButtonTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.testClasses.CartPageTest@5bf0d49]" started-at="2024-09-05T18:24:55 PKT" name="afterTest" finished-at="2024-09-05T18:25:00 PKT" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.saucedemo.testClasses.CartPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- smoke-suite -->
+</testng-results>

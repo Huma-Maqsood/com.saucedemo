@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-smoke_suite" class="navigator-link">
+              <span class="suite-name border-passed">smoke-suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-smoke_suite" class="navigator-link ">
+                    <span>C:\Users\huma\eclipse-workspace\com.saucedemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-smoke_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-smoke_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-smoke_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-smoke_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-smoke_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-smoke_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-smoke_suite" class="hide-methods passed suite-smoke_suite"> (hide)</a> <!-- hide-methods passed suite-smoke_suite -->
+                      <a href="#" panel-name="suite-smoke_suite" class="show-methods passed suite-smoke_suite"> (show)</a> <!-- show-methods passed suite-smoke_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-smoke_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.LoginPageTest" class="method navigator-link" hash-for-method="LogoTest">LogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.InventoryPageTest" class="method navigator-link" hash-for-method="VerifyProduct1PriceTest">VerifyProduct1PriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.InventoryPageTest" class="method navigator-link" hash-for-method="addProduct1toCartTest">addProduct1toCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.InventoryPageTest" class="method navigator-link" hash-for-method="addProduct2toCartTest">addProduct2toCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.CartPageTest" class="method navigator-link" hash-for-method="checkoutButtonTest">checkoutButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.InventoryPageTest" class="method navigator-link" hash-for-method="goToCartTest">goToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.InventoryPageTest" class="method navigator-link" hash-for-method="isProduct1inCartTest">isProduct1inCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.InventoryPageTest" class="method navigator-link" hash-for-method="isProduct2inCartTest">isProduct2inCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.LoginPageTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.CartPageTest" class="method navigator-link" hash-for-method="verifyCartItemsTest">verifyCartItemsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smoke_suite" title="com.saucedemo.testClasses.InventoryPageTest" class="method navigator-link" hash-for-method="verifyItemsAddedTest">verifyItemsAddedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-smoke_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-smoke_suite" class="panel smoke_suite">
+          <div class="suite-smoke_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testClasses.InventoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProduct1PriceTest">
+                  </a> <!-- VerifyProduct1PriceTest -->
+                  <span class="method-name">VerifyProduct1PriceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProduct1toCartTest">
+                  </a> <!-- addProduct1toCartTest -->
+                  <span class="method-name">addProduct1toCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProduct2toCartTest">
+                  </a> <!-- addProduct2toCartTest -->
+                  <span class="method-name">addProduct2toCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToCartTest">
+                  </a> <!-- goToCartTest -->
+                  <span class="method-name">goToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isProduct1inCartTest">
+                  </a> <!-- isProduct1inCartTest -->
+                  <span class="method-name">isProduct1inCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isProduct2inCartTest">
+                  </a> <!-- isProduct2inCartTest -->
+                  <span class="method-name">isProduct2inCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyItemsAddedTest">
+                  </a> <!-- verifyItemsAddedTest -->
+                  <span class="method-name">verifyItemsAddedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smoke_suite-class-passed -->
+          <div class="suite-smoke_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testClasses.CartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutButtonTest">
+                  </a> <!-- checkoutButtonTest -->
+                  <span class="method-name">checkoutButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartItemsTest">
+                  </a> <!-- verifyCartItemsTest -->
+                  <span class="method-name">verifyCartItemsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smoke_suite-class-passed -->
+          <div class="suite-smoke_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testClasses.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoTest">
+                  </a> <!-- LogoTest -->
+                  <span class="method-name">LogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smoke_suite-class-passed -->
+        </div> <!-- panel smoke_suite -->
+        <div panel-name="test-xml-smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\huma\eclipse-workspace\com.saucedemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;smoke-suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.testClasses.InventoryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testClasses.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.testClasses.CartPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- smoke-suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for smoke-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for smoke-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for smoke-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_smoke_suite');
+function tableData_smoke_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkoutButtonTest')
+data.setCell(0, 2, 'com.saucedemo.testClasses.CartPageTest')
+data.setCell(0, 3, 3333);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validLoginTest')
+data.setCell(1, 2, 'com.saucedemo.testClasses.LoginPageTest')
+data.setCell(1, 3, 674);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCartItemsTest')
+data.setCell(2, 2, 'com.saucedemo.testClasses.CartPageTest')
+data.setCell(2, 3, 443);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'goToCartTest')
+data.setCell(3, 2, 'com.saucedemo.testClasses.InventoryPageTest')
+data.setCell(3, 3, 251);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'isProduct2inCartTest')
+data.setCell(4, 2, 'com.saucedemo.testClasses.InventoryPageTest')
+data.setCell(4, 3, 75);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'isProduct1inCartTest')
+data.setCell(5, 2, 'com.saucedemo.testClasses.InventoryPageTest')
+data.setCell(5, 3, 72);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addProduct2toCartTest')
+data.setCell(6, 2, 'com.saucedemo.testClasses.InventoryPageTest')
+data.setCell(6, 3, 67);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addProduct1toCartTest')
+data.setCell(7, 2, 'com.saucedemo.testClasses.InventoryPageTest')
+data.setCell(7, 3, 65);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyProduct1PriceTest')
+data.setCell(8, 2, 'com.saucedemo.testClasses.InventoryPageTest')
+data.setCell(8, 3, 62);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LogoTest')
+data.setCell(9, 2, 'com.saucedemo.testClasses.LoginPageTest')
+data.setCell(9, 3, 45);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPageTitleTest')
+data.setCell(10, 2, 'com.saucedemo.testClasses.LoginPageTest')
+data.setCell(10, 3, 21);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyItemsAddedTest')
+data.setCell(11, 2, 'com.saucedemo.testClasses.InventoryPageTest')
+data.setCell(11, 3, 18);
+window.suiteTableData['smoke_suite']= { tableData: data, tableDiv: 'times-div-smoke_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-smoke_suite">
+              </div> <!-- times-div-smoke_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for smoke-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-smoke_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.InventoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">8788 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">18188 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.InventoryPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyProduct1PriceTest</span>
+                <span class="method-start">24775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProduct1toCartTest</span>
+                <span class="method-start">24844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProduct2toCartTest</span>
+                <span class="method-start">24923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isProduct1inCartTest</span>
+                <span class="method-start">24993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isProduct2inCartTest</span>
+                <span class="method-start">25068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goToCartTest</span>
+                <span class="method-start">25159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyItemsAddedTest</span>
+                <span class="method-start">25413 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">25446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LogoTest</span>
+                <span class="method-start">25470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">25517 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCartItemsTest</span>
+                <span class="method-start">26198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutButtonTest</span>
+                <span class="method-start">26644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">29979 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.InventoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34256 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testClasses.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34256 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
