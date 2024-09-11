@@ -1,85 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-05T18:27:55 PKT" name="smoke-suite" finished-at="2024-09-05T18:28:16 PKT" duration-ms="21164">
+  <suite started-at="2024-09-09T16:11:03 PKT" name="smoke-suite" finished-at="2024-09-09T16:11:15 PKT" duration-ms="11295">
     <groups>
     </groups>
-    <test started-at="2024-09-05T18:27:55 PKT" name="Test" finished-at="2024-09-05T18:28:16 PKT" duration-ms="21164">
-      <class name="com.saucedemo.testClasses.LoginPageTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.saucedemo.testClasses.LoginPageTest@44ebcd03]" started-at="2024-09-05T18:28:08 PKT" name="beforeTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="3662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.saucedemo.testClasses.LoginPageTest@44ebcd03]" started-at="2024-09-05T18:28:12 PKT" name="loginPageTitleTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="LogoTest()[pri:2, instance:com.saucedemo.testClasses.LoginPageTest@44ebcd03]" started-at="2024-09-05T18:28:12 PKT" name="LogoTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoTest -->
-        <test-method signature="validLoginTest()[pri:3, instance:com.saucedemo.testClasses.LoginPageTest@44ebcd03]" started-at="2024-09-05T18:28:12 PKT" name="validLoginTest" finished-at="2024-09-05T18:28:13 PKT" duration-ms="438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testClasses.LoginPageTest@44ebcd03]" started-at="2024-09-05T18:28:16 PKT" name="tearDown" finished-at="2024-09-05T18:28:16 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.saucedemo.testClasses.LoginPageTest -->
-      <class name="com.saucedemo.testClasses.InventoryPageTest">
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:04 PKT" name="pageSetup" finished-at="2024-09-05T18:28:08 PKT" duration-ms="3839" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetup -->
-        <test-method signature="VerifyProduct1PriceTest()[pri:1, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:12 PKT" name="VerifyProduct1PriceTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyProduct1PriceTest -->
-        <test-method signature="addProduct1toCartTest()[pri:2, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:12 PKT" name="addProduct1toCartTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct1toCartTest -->
-        <test-method signature="addProduct2toCartTest()[pri:3, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:12 PKT" name="addProduct2toCartTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct2toCartTest -->
-        <test-method signature="isProduct1inCartTest()[pri:4, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:12 PKT" name="isProduct1inCartTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="64" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isProduct1inCartTest -->
-        <test-method signature="isProduct2inCartTest()[pri:5, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:12 PKT" name="isProduct2inCartTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isProduct2inCartTest -->
-        <test-method signature="goToCartTest()[pri:6, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:12 PKT" name="goToCartTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToCartTest -->
-        <test-method signature="verifyItemsAddedTest()[pri:7, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:12 PKT" name="verifyItemsAddedTest" finished-at="2024-09-05T18:28:12 PKT" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemsAddedTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testClasses.InventoryPageTest@47af7f3d]" started-at="2024-09-05T18:28:16 PKT" name="tearDown" finished-at="2024-09-05T18:28:16 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.saucedemo.testClasses.InventoryPageTest -->
+    <test started-at="2024-09-09T16:11:03 PKT" name="Test" finished-at="2024-09-09T16:11:15 PKT" duration-ms="11295">
       <class name="com.saucedemo.testClasses.CartPageTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.saucedemo.testClasses.CartPageTest@694abbdc]" started-at="2024-09-05T18:27:55 PKT" name="beforeTest" finished-at="2024-09-05T18:28:04 PKT" duration-ms="9067" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.saucedemo.testClasses.CartPageTest@1a451d4d]" started-at="2024-09-09T16:11:04 PKT" name="beforeTest" finished-at="2024-09-09T16:11:11 PKT" duration-ms="7787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="verifyCartItemsTest()[pri:1, instance:com.saucedemo.testClasses.CartPageTest@694abbdc]" started-at="2024-09-05T18:28:13 PKT" name="verifyCartItemsTest" finished-at="2024-09-05T18:28:13 PKT" duration-ms="81" status="PASS">
+        <test-method signature="verifyCartItemsTest()[pri:1, instance:com.saucedemo.testClasses.CartPageTest@1a451d4d]" started-at="2024-09-09T16:11:11 PKT" name="verifyCartItemsTest" finished-at="2024-09-09T16:11:11 PKT" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartItemsTest -->
-        <test-method signature="checkoutButtonTest()[pri:2, instance:com.saucedemo.testClasses.CartPageTest@694abbdc]" started-at="2024-09-05T18:28:13 PKT" name="checkoutButtonTest" finished-at="2024-09-05T18:28:16 PKT" duration-ms="3131" status="PASS">
+        <test-method signature="checkoutButtonTest()[pri:2, instance:com.saucedemo.testClasses.CartPageTest@1a451d4d]" started-at="2024-09-09T16:11:11 PKT" name="checkoutButtonTest" finished-at="2024-09-09T16:11:14 PKT" duration-ms="3082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutButtonTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.testClasses.CartPageTest@694abbdc]" started-at="2024-09-05T18:28:16 PKT" name="afterTest" finished-at="2024-09-05T18:28:16 PKT" duration-ms="341" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.saucedemo.testClasses.CartPageTest@1a451d4d]" started-at="2024-09-09T16:11:14 PKT" name="afterTest" finished-at="2024-09-09T16:11:15 PKT" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
